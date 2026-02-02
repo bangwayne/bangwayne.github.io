@@ -27,8 +27,9 @@ latest_posts:
   limit: 3 # leave blank to include all the blog posts
 ---
 
-Write your biography here. Tell the world about yourself. Link to your favorite [subreddit](https://www.reddit.com). You can put a picture in, too. The code is already in, just name your picture `prof_pic.jpg` and put it in the `img/` folder.
+I am a Ph.D. student in Computer Science at Rutgers University, advised by Distinguished Professor Dimitris N. Metaxas.
+My research focuses on medical foundation models, with an emphasis on universal, interactive, and in-context medical image segmentation.
 
-Put your address / P.O. box / other info right below your picture. You can also disable any of these elements by editing `profile` property of the YAML header of your `_pages/about.md`. Edit `_bibliography/papers.bib` and Jekyll will render your [publications page](/al-folio/publications/) automatically.
+I work extensively to develop scalable 2D/3D segmentation frameworks that support semantic, prompt-based, and human-in-the-loop interaction. My broader research interests lie in integrating large multimodal models and agent-based reasoning into vision systems, aiming to build generalizable and adaptive AI models that can transfer across tasks and data distributions. Previously, I received my M.S. in Applied Statistics and B.S. in Mathematics from the University of Science and Technology of China (USTC). 
 
-Link to your social media connections, too. This theme is set up to use [Font Awesome icons](https://fontawesome.com/) and [Academicons](https://jpswalsh.github.io/academicons/), like the ones below. Add your Facebook, Twitter, LinkedIn, Google Scholar, or just disable all of them.
+I am currently a research intern at NEC Laboratories America, where I work on large multimodal models and multi-agent systems for structured reasoning and complex information extraction. **I am actively seeking 2026 summer internship opportunities in computer vision, medical imaging, and large language / multimodal models.**
