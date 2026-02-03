@@ -5,6 +5,7 @@ inline: true
 related_posts: false
 ---
 
-💼 I started my part-time research intern in **NEC Laboratories America**!
+💼 I started my part-time research internship at **NEC Laboratories America** in **Princeton, New Jersey**!
+
 
 
