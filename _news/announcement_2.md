@@ -6,6 +6,6 @@ inline: false
 related_posts: false
 ---
 
-💼 I joined **NEC Laboratories America** as a part-time research intern.
+💼 I started my part-time research intern in **NEC Laboratories America**!
 
 
