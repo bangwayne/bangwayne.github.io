@@ -432,8 +432,8 @@ ninja.data = [{
           section: "News",},{id: "news-i-will-attend-ipmi2025-in-kos-greece",
           title: '🇬🇷 I will attend IPMI2025 in Kos, Greece.',
           description: "",
-          section: "News",},{id: "news-a-long-announcement-with-details",
-          title: 'A long announcement with details',
+          section: "News",},{id: "news-announcement-2",
+          title: 'Announcement_2',
           description: "",
           section: "News",handler: () => {
               window.location.href = "/news/announcement_2/";
