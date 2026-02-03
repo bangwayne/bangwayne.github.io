@@ -487,18 +487,18 @@ ninja.data = [{
           window.open("mailto:%62%61%6E%67%77%65%69.%67%75%6F@%72%75%74%67%65%72%73.%65%64%75", "_blank");
         },
       },{
-        id: 'social-inspire',
-        title: 'Inspire HEP',
+        id: 'social-linkedin',
+        title: 'LinkedIn',
         section: 'Socials',
         handler: () => {
-          window.open("https://inspirehep.net/authors/1010907", "_blank");
+          window.open("https://www.linkedin.com/in/bangwei-guo-36778428b", "_blank");
         },
       },{
         id: 'social-scholar',
         title: 'Google Scholar',
         section: 'Socials',
         handler: () => {
-          window.open("https://scholar.google.com/citations?user=qc6CJjYAAAAJ", "_blank");
+          window.open("https://scholar.google.com/citations?user=GBbfGuUAAAAJ&hl", "_blank");
         },
       },{
       id: 'light-theme',
