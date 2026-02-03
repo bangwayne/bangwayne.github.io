@@ -426,8 +426,8 @@ ninja.data = [{
           description: "",
           section: "Books",handler: () => {
               window.location.href = "/books/the_godfather/";
-            },},{id: "news-our-paper-verse-is-accepted-by-ipmi2025",
-          title: 'Our paper VerSe is accepted by IPMI2025!',
+            },},{id: "news-our-paper-verse-has-been-accepted-to-ipmi2025-congratulations-to-all-collaborators-sparkles",
+          title: 'Our paper VerSe has been accepted to IPMI2025. Congratulations to all collaborators! :sparkles:...',
           description: "",
           section: "News",},{id: "news-a-long-announcement-with-details",
           title: 'A long announcement with details',
