@@ -432,12 +432,10 @@ ninja.data = [{
           section: "News",},{id: "news-i-will-attend-ipmi2025-in-kos-greece",
           title: '🇬🇷 I will attend IPMI2025 in Kos, Greece.',
           description: "",
-          section: "News",},{id: "news-announcement-2",
-          title: 'Announcement_2',
+          section: "News",},{id: "news-i-started-my-part-time-research-intern-in-nec-laboratories-america",
+          title: '💼 I started my part-time research intern in NEC Laboratories America!',
           description: "",
-          section: "News",handler: () => {
-              window.location.href = "/news/announcement_2/";
-            },},{id: "news-our-paper-k-prism-has-been-accepted-to-iclr2026-congratulations-to-all-collaborators-sparkles",
+          section: "News",},{id: "news-our-paper-k-prism-has-been-accepted-to-iclr2026-congratulations-to-all-collaborators-sparkles",
           title: '🎉 Our paper K-Prism has been accepted to ICLR2026. Congratulations to all collaborators!...',
           description: "",
           section: "News",},{id: "projects-project-1",
