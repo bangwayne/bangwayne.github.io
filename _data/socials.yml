@@ -3,8 +3,9 @@
 # for more information, please refer to the documentation of jekyll-socials plugin: https://github.com/george-gca/jekyll-socials
 cv_pdf: /assets/pdf/Bangwei_Guo_cv_01_28.pdf # path to your CV PDF file
 email: bangwei.guo@rutgers.edu # your email address
-inspirehep_id: 1010907 # Inspire HEP author ID
+# inspirehep_id: 1010907 # Inspire HEP author ID
+linkedin_username: bangwei-guo-36778428b
 # rss_icon: true # comment this line to hide the RSS icon
-scholar_userid: qc6CJjYAAAAJ # your Google Scholar ID
+scholar_userid: GBbfGuUAAAAJ&hl # your Google Scholar ID
 # wechat_qr: # filename of your wechat qr-code saved as an image (e.g., wechat-qr.png if saved to assets/img/wechat-qr.png)
 # whatsapp_number: # your WhatsApp number (full phone number in international format. Omit any zeroes, brackets, or dashes when adding the phone number in international format.)
