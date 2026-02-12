@@ -409,7 +409,7 @@ ninja.data = [{
           title: '🎉 Our paper VerSe has been accepted to IPMI2025. Congratulations to all collaborators!...',
           description: "",
           section: "News",},{id: "news-i-will-attend-ipmi2025-in-kos-greece",
-          title: '🇬🇷 I will attend IPMI2025 in Kos, Greece.',
+          title: 'I will attend IPMI2025 in Kos, Greece.',
           description: "",
           section: "News",},{id: "news-i-started-my-part-time-research-internship-at-nec-laboratories-america-in-princeton-new-jersey",
           title: '💼 I started my part-time research internship at NEC Laboratories America in Princeton,...',
