@@ -1,88 +1,96 @@
-cv:
-  name: Bangwei Guo
-  label: Ph.D. Student in Computer Science
-  email: bangwei.guo@rutgers.edu
-  location: Piscataway, New Jersey, United States
+- title: General Information
+  type: map
+  contents:
+    - name: Full Name
+      value: Bangwei Guo
+    - name: Email
+      value: bangwei.guo@rutgers.edu
+    - name: Website
+      value: jincan333.github.io
+    - name: Languages
+      value: English, Chinese
 
-  social_networks:
-    - network: Google Scholar
-      username: GBbfGuUAAAAJ
-    - network: GitHub
-      username: bangwayne
-    - network: LinkedIn
-      username: bangwei-guo
+- title: Education
+  type: time_table
+  contents:
+    - title: Ph.D. Candidate in Computer Science
+      institution: Rutgers University, New Brunswick, NJ
+      year: Aug. 2024 – Present
+      description:
+        - Advisor: Prof. Dimitris N. Metaxas.
+        - Research Interests: Pretraining/Posttraining/Inference of Large Foundation Models, Efficient AI, AI Agents.
+    - title: Master of Science in Mathematics
+      institution: University of Science and Technology of China (USTC), Hefei, China
+      year: Sep. 2018 – Jul. 2020
+      description:
+        - Advisor: Prof. Jianliang Zhai.
+        - Focus: Stochastic Partial Differential Equations (SPDEs).
+    - title: Bachelor of Science in Mathematics
+      institution: University of Science and Technology of China (USTC), Hefei, China
+      year: Sep. 2014 – Jul. 2018
+      description:
+        - Advisor: Prof. Yi Wang.
+        - Focus: Probability Theory, Random Processes, Dynamical Systems.
 
-  sections:
+- title: Experience
+  type: time_table
+  contents:
+    - title: Research Intern (Large Foundation Models Pretraining)
+      institution: Adobe Incorporated, San Jose / Remote, CA
+      year: 2025
+      description:
+        - Identify critical limitations in existing Top-p routing for Mixture-of-Experts (MoE).
+        - Propose DTop-p MoE, a dynamic routing scheme that learns the probability threshold via a PI controller.
+        - Demonstrate DTop-p consistently outperforms Top-k and Top-p MoE.
+    - title: Research Intern (Efficient AI)
+      institution: Massachusetts Institute of Technology (MIT), Remote
+      year: 2023
+      description:
+        - Conduct a pilot study on post-pruning visual prompts.
+        - Develop VPNs, a novel data-model co-design paradigm for efficient sparse vision models.
+        - Achieve state-of-the-art efficiency-performance trade-offs.
+    - title: Machine Learning Engineer
+      institution: Meituan Dianping Corporation, Shanghai, China
+      year: 2020 – 2023
+      description:
+        - Sales Forecasting: Developed XGBoost and DNN models with quantile prediction to forecast SKU sales.
+        - Time Forecasting: Constructed Attention-based DNNs to estimate warehouse task duration.
 
-    Education:
-      - institution: Rutgers, The State University of New Jersey
-        location: Piscataway, NJ, USA
-        area: Computer Science
-        studyType: Ph.D.
-        start_date: 2023
-        end_date: Present
-        highlights:
-          - Advised by Distinguished Professor Dimitris N. Metaxas
-          - Research focus on Medical Foundation Models and Multimodal AI
+- title: Honors and Awards
+  type: time_table
+  contents:
+    - year: 2025
+      items:
+        - Best Paper Award (WWW 2025 RelWeb)
+    - year: 2020
+      items:
+        - Outstanding Provincial Graduate (USTC, Top 3%)
+        - Outstanding University Graduate (USTC, Top 15%)
+    - year: 2015
+      items:
+        - National Encouragement Scholarship (USTC, Top 15%)
 
-      - institution: University of Science and Technology of China (USTC)
-        location: Hefei, China
-        area: Applied Statistics
-        studyType: M.S.
-        start_date: 2020
-        end_date: 2023
+- title: Academic Service
+  type: time_table
+  contents:
+    - title: Teaching Assistant
+      institution: Rutgers University
+      year: 2024 - 2025
+      description:
+        - CS211: Computer Architecture (Fall 2025)
+        - CS534: Computer Vision (Spring 2025)
+        - CS210: Data Management for Data Science (Fall 2024)
+    - title: Peer Review
+      institution: Conference & Journal
+      year: Present
+      description:
+        - Conference: NeurIPS 2025, CVPR 2025/2026, ICLR 2025, AAAI 2026, ICML 2024
+        - Journal: Alexandria Engineering Journal, Information Fusion, Pattern Recognition, Signal Processing
 
-      - institution: University of Science and Technology of China (USTC)
-        location: Hefei, China
-        area: Mathematics
-        studyType: B.S.
-        start_date: 2016
-        end_date: 2020
-
-    Experience:
-      - company: NEC Laboratories America
-        position: Part-time Research Intern
-        location: Princeton, NJ, USA
-        start_date: 2025-08
-        end_date: Present
-        highlights:
-          - Multi-agent large multimodal framework for structured diagram understanding
-          - Reinforcement learning fine-tuning of LLMs for mathematical optimization
-          - Agent-based reasoning pipelines for structured visual extraction
-
-      - company: Rutgers University – CBIM
-        position: Research Assistant
-        location: Piscataway, NJ, USA
-        start_date: 2023-09
-        end_date: Present
-        highlights:
-          - Medical foundation models for universal and interactive segmentation
-          - Scalable 2D/3D segmentation frameworks (CT, MRI)
-          - Vision–language alignment and automated medical report generation
-          - 3D reconstruction of anatomical structures from medical images
-
-    Skills:
-      - name: Machine Learning & AI
-        level: Advanced
-        icon: fa-solid fa-brain
-        keywords: "Foundation Models, Large Multimodal Models, Vision-Language Models, Reinforcement Learning, Multi-Agent Systems"
-
-      - name: Medical Image Analysis
-        level: Advanced
-        icon: fa-solid fa-x-ray
-        keywords: "2D/3D Segmentation, Interactive Learning, CT/MRI/WSI, 3D Reconstruction"
-
-      - name: Programming
-        level: Advanced
-        icon: fa-solid fa-code
-        keywords: "Python, PyTorch, R, MATLAB, LaTeX, Git, Distributed Training"
-
-    Languages:
-      - name: Chinese
-        summary: Native
-
-      - name: English
-        summary: Fluent
+- title: Skills
+  type: list
+  contents:
+    - Python, PyTorch, C/C++, SQL, Git, Slurm, Docker, Cursor, VS Code, RStudio, MATLAB.
 
 
 
