@@ -61,19 +61,6 @@ cv:
           - Vision–language alignment and automated medical report generation
           - 3D reconstruction of anatomical structures from medical images
 
-    Publications:
-      - title: K-Prism (ICLR 2026)
-        summary: Medical foundation model for universal and interactive segmentation.
-      
-      - title: VerSe (IPMI)
-        summary: Semantic and interactive segmentation framework for cardiac MRI.
-
-      - title: All Circuits Lead to Rome
-        summary: Functional anisotropy in circuit and sheaf discovery for LLMs. (Under Review)
-
-      - title: Reconstruction of 3D Models of the Mandible
-        summary: Deep learning-based 2D-to-3D reconstruction in craniofacial imaging.
-
     Skills:
       - name: Machine Learning & AI
         level: Advanced
