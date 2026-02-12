@@ -5,5 +5,5 @@ inline: true
 related_posts: false
 ---
 
-🇬🇷 I will attend **IPMI2025** in **Kos, Greece**.
+I will attend **IPMI2025** in **Kos, Greece**.
 
