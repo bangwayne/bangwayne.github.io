@@ -1,5 +1,5 @@
 metadata:
-  last_updated: '2026-02-06'
+  last_updated: '2026-02-13'
 papers:
   GBbfGuUAAAAJ:2osOgNQ5qMEC:
     citations: 5
@@ -38,7 +38,7 @@ papers:
     title: 'Time to embrace natural language processing (NLP)-based digital pathology: Benchmarking NLP-and convolutional neural network-based deep learning pipelines'
     year: '2023'
   GBbfGuUAAAAJ:u-x6o8ySG0sC:
-    citations: 11
+    citations: 10
     title: A robust and lightweight deep attention multiple instance learning algorithm for predicting genetic alterations
     year: '2023'
   GBbfGuUAAAAJ:u5HHmVD_uO8C:
