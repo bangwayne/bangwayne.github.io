@@ -5,4 +5,4 @@ inline: true
 related_posts: false
 ---
 
-💼 I started my research internship at **United Imaging Intelligence** in **Burlington, MA**!
+💼 I started my research internship at **United Imaging Intelligence** in **Boston, MA**, focusing on VLM and AI Agent.
