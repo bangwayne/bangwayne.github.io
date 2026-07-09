@@ -259,3 +259,116 @@ ul.task-list input[type="checkbox"] {
 .d2h-diff-table {
   position: relative;
 }
+
+// Homepage experience timeline
+.experiences {
+  margin-top: 1.5rem;
+  margin-bottom: 1rem;
+
+  .exp-item {
+    display: flex;
+    gap: 1rem;
+    padding-bottom: 1.25rem;
+    position: relative;
+
+    // vertical connector line
+    &::before {
+      content: "";
+      position: absolute;
+      left: 6px;
+      top: 0.5rem;
+      bottom: 0;
+      width: 2px;
+      background: var(--global-divider-color);
+    }
+
+    &:last-child {
+      padding-bottom: 0;
+      &::before {
+        display: none;
+      }
+    }
+
+    // dot marker
+    &::after {
+      content: "";
+      position: absolute;
+      left: 0;
+      top: 0.35rem;
+      width: 14px;
+      height: 14px;
+      border-radius: 50%;
+      background: var(--global-theme-color);
+      border: 2px solid var(--global-bg-color);
+    }
+  }
+
+  .exp-year {
+    flex: 0 0 8.5rem;
+    padding-left: 1.75rem;
+    font-size: 0.85rem;
+    font-weight: 600;
+    color: var(--global-text-color-light);
+    white-space: nowrap;
+    padding-top: 0.1rem;
+  }
+
+  .exp-body {
+    flex: 1 1 auto;
+    min-width: 0;
+  }
+
+  .exp-header {
+    display: flex;
+    align-items: center;
+    gap: 0.6rem;
+  }
+
+  .exp-logo {
+    width: 2rem;
+    height: 2rem;
+    object-fit: contain;
+    border-radius: 4px;
+    flex: 0 0 auto;
+  }
+
+  .exp-position {
+    font-weight: 600;
+    color: var(--global-text-color);
+  }
+
+  .exp-institution {
+    display: block;
+    font-size: 0.95rem;
+    color: var(--global-text-color-light);
+
+    a {
+      color: var(--global-theme-color);
+    }
+  }
+
+  .exp-location {
+    color: var(--global-text-color-light);
+  }
+
+  ul.exp-desc {
+    margin: 0.35rem 0 0 0;
+    padding-left: 1.1rem;
+    font-size: 0.9rem;
+    color: var(--global-text-color-light);
+
+    li {
+      margin-bottom: 0.15rem;
+    }
+  }
+}
+
+@media (max-width: 576px) {
+  .experiences .exp-item {
+    flex-direction: column;
+    gap: 0.25rem;
+  }
+  .experiences .exp-year {
+    padding-left: 1.75rem;
+  }
+}

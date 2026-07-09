@@ -1,0 +1,26 @@
+# Homepage "Experience" timeline.
+# Order = most recent first. Edit / add / remove entries freely.
+# Each entry:
+#   position:    your job title (required)
+#   institution: company or lab name (required)
+#   location:    city / remote (optional)
+#   year:        date range string, e.g. "2025 – Present" or "May 2024 – Aug 2024" (required)
+#   url:         link the institution name to a website (optional)
+#   logo:        image filename under assets/img/ (optional, e.g. nec.png)
+#   description: bullet points (optional, 0–3 recommended)
+
+- position: Research Intern
+  institution: PLACEHOLDER Laboratories America
+  location: Princeton, NJ
+  year: 2025 – Present
+  url: https://example.com
+  description:
+    - PLACEHOLDER — first thing you worked on here.
+    - PLACEHOLDER — method or result you are proud of.
+
+- position: PLACEHOLDER Engineer
+  institution: PLACEHOLDER Company
+  location: Shanghai, China
+  year: 2020 – 2023
+  description:
+    - PLACEHOLDER — what you built or shipped.

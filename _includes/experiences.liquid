@@ -1,0 +1,39 @@
+{% comment %}
+  Homepage experience timeline. Reads from _data/experiences.yml.
+{% endcomment %}
+<div class="experiences">
+  {% for exp in site.data.experiences %}
+    <div class="exp-item">
+      <div class="exp-year">{{ exp.year }}</div>
+      <div class="exp-body">
+        <div class="exp-header">
+          {% if exp.logo %}
+            <img
+              class="exp-logo"
+              src="{{ exp.logo | prepend: 'assets/img/' | relative_url }}"
+              alt="{{ exp.institution }}"
+            />
+          {% endif %}
+          <div>
+            <span class="exp-position">{{ exp.position }}</span>
+            <span class="exp-institution">
+              {% if exp.url %}
+                <a href="{{ exp.url }}" target="_blank" rel="noopener noreferrer">{{ exp.institution }}</a>
+              {% else %}
+                {{ exp.institution }}
+              {% endif %}
+              {% if exp.location %}<span class="exp-location">· {{ exp.location }}</span>{% endif %}
+            </span>
+          </div>
+        </div>
+        {% if exp.description %}
+          <ul class="exp-desc">
+            {% for point in exp.description %}
+              <li>{{ point }}</li>
+            {% endfor %}
+          </ul>
+        {% endif %}
+      </div>
+    </div>
+  {% endfor %}
+</div>
