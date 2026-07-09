@@ -22,6 +22,18 @@
   url: https://ascopubs.org/journal/po
   color: "#e65100"
 
+"FIMH":
+  url: https://link.springer.com/book/10.1007/978-3-031-94562-5
+  color: "#3949ab"
+
+"AJP":
+  url: https://ajp.amjpathol.org/
+  color: "#6d4c41"
+
+"JCO CCI":
+  url: https://ascopubs.org/journal/cci
+  color: "#558b2f"
+
 "arXiv":
   url: https://arxiv.org/
   color: "#b31b1b"
