@@ -1,9 +1,23 @@
-"AJP":
-  url: https://aapt.scitation.org/journal/ajp
-  color: "#00369f"
+"ICLR":
+  url: https://iclr.cc/
+  color: "#1565c0"
 
-"PhysRev":
-  url: https://journals.aps.org/
+"IPMI":
+  url: https://ipmi2025.org/
+  color: "#2a9d8f"
 
-"Vision":
-  color: "#009f36"
+"CMIG":
+  url: https://www.sciencedirect.com/journal/computerized-medical-imaging-and-graphics
+  color: "#c2185b"
+
+"J Path CR":
+  url: https://pathsocjournals.onlinelibrary.wiley.com/journal/20563930
+  color: "#00796b"
+
+"JCO PO":
+  url: https://ascopubs.org/journal/po
+  color: "#e65100"
+
+"arXiv":
+  url: https://arxiv.org/
+  color: "#b31b1b"
