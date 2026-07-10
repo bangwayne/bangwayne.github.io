@@ -10,17 +10,24 @@
 #   description: bullet points (optional, 0–3 recommended)
 
 - position: Research Intern
-  institution: PLACEHOLDER Laboratories America
-  location: Princeton, NJ
-  year: 2025 – Present
-  url: https://example.com
+  institution: UII
+  location: Boston, MA
+  year: 2026.5 – 2026.8
+  logo: uii.jpg
   description:
-    - PLACEHOLDER — first thing you worked on here.
-    - PLACEHOLDER — method or result you are proud of.
+    - Building a cardiac clinical-diagnosis system powered by vision-language models (VLMs) and LLM agents.
 
-- position: PLACEHOLDER Engineer
-  institution: PLACEHOLDER Company
-  location: Shanghai, China
-  year: 2020 – 2023
-  description:
-    - PLACEHOLDER — what you built or shipped.
+- position: Collaboration Research Intern
+  institution: NEC Laboratories America
+  location: Princeton, NJ
+  year: 2025.8 – Present
+
+- position: Research Assistant
+  institution: Rutgers University
+  location: Piscataway, NJ
+  year: 2023.9 – Present
+
+- position: Research Assistant
+  institution: University of Science and Technology of China
+  location: Anhui, China
+  year: 2020.9 – 2023.6
