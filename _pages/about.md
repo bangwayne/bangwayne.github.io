@@ -23,11 +23,11 @@ latest_posts:
   limit: 3 # leave blank to include all the blog posts
 ---
 
-I am a Ph.D. student in Computer Science at Rutgers University, advised by Distinguished Professor Dimitris N. Metaxas. Previously, I received my M.S. in Applied Statistics and B.S. in Mathematics from the University of Science and Technology of China (USTC). 
+I am a Ph.D. candidate in Computer Science at Rutgers University, advised by Distinguished Professor Dimitris N. Metaxas. Previously, I received my M.S. in Applied Statistics and B.S. in Mathematics from the University of Science and Technology of China (USTC).
 
-My research focuses on medical foundation models, with an emphasis on universal, interactive, and in-context medical image segmentation. I work extensively to develop scalable 2D/3D segmentation frameworks that support semantic, prompt-based, and human-in-the-loop interaction. My broader research interests lie in integrating large multimodal models and agent-based reasoning into vision systems, aiming to build generalizable and adaptive AI models that can transfer across tasks and data distributions.
+My research lies at the intersection of vision-language models, large language models, and computer vision, with a strong emphasis on medical imaging. I develop generalizable and adaptive multimodal systems for visual understanding, reasoning, and interaction—spanning universal and interactive medical image segmentation, in-context learning, and agent-based vision systems. My long-term goal is to build scalable AI that unifies perception, language, and reasoning, and transfers effectively across tasks, modalities, and data distributions.
 
-I am currently a research intern at NEC Laboratories America, where I work on large multimodal models and multi-agent systems for structured reasoning and complex information extraction. **I am actively seeking 2026 summer internship opportunities in computer vision, medical imaging, and large language / multimodal models.**
+I am currently a research intern at NEC Laboratories America, where I work on large multimodal models and multi-agent systems for structured reasoning and complex information extraction. **I am actively seeking Fall 2026 / Summer 2027 internships and 2027 full-time opportunities in computer vision, medical imaging, and large language / multimodal models.**
 
 ## experience
 
