@@ -10,7 +10,7 @@
 #   description: bullet points (optional, 0–3 recommended)
 
 - position: Research Intern
-  institution: UII
+  institution: United Imaging Intelligence, America
   location: Boston, MA
   year: 2026.5 – 2026.8
   logo: uii.jpg
@@ -21,13 +21,18 @@
   institution: NEC Laboratories America
   location: Princeton, NJ
   year: 2025.8 – Present
+  logo: nec.jpg
+  description:
+    - Building a cardiac clinical-diagnosis system powered by vision-language models (VLMs) and LLM agents.
 
 - position: Research Assistant
   institution: Rutgers University
   location: Piscataway, NJ
   year: 2023.9 – Present
+  logo: rutgers.jpg
 
 - position: Research Assistant
   institution: University of Science and Technology of China
   location: Anhui, China
   year: 2020.9 – 2023.6
+  logo: ustc.jpg
