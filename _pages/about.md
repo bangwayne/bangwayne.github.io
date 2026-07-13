@@ -33,6 +33,10 @@ I am currently a research intern at NEC Laboratories America, where I work on la
 
 {% include experiences.liquid %}
 
+{% comment %}
+Hidden for now — will re-enable once there is more to list.
+
 ## academic service
 
 **Conference Reviewer:** MICCAI 2026 · CVPR 2026 · NeurIPS 2026
+{% endcomment %}
