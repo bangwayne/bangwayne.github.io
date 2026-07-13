@@ -1,0 +1,19 @@
+{% comment %}
+  Visitor map (Flag Counter).
+
+  Setup:
+    1. Go to https://flagcounter.com
+    2. Customize the look (colors, columns, max flags) if you like.
+    3. Click "GET YOUR FLAG COUNTER", then copy the HTML snippet for websites
+       (looks like: <a href="https://info.flagcounter.com/XXXX"><img
+        src="https://s01.flagcounter.com/count2/XXXX/..." alt="Flag Counter"></a>)
+    4. Paste that snippet between the two marker comments below.
+    5. Set `enable_flagcounter: true` in _config.yml.
+{% endcomment %}
+{% if site.enable_flagcounter %}
+  <div class="flagcounter-container text-center mt-4 mb-3">
+    <!-- >>> PASTE FLAG COUNTER SNIPPET BELOW THIS LINE <<< -->
+
+    <!-- >>> PASTE FLAG COUNTER SNIPPET ABOVE THIS LINE <<< -->
+  </div>
+{% endif %}
