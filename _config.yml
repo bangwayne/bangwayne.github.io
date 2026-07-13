@@ -399,6 +399,7 @@ lazy_loading_images: true # enables lazy loading of images (recommended)
 # Optional Features
 # -----------------------------------------------------------------------------
 
+enable_clustrmaps: false # enables the ClustrMaps visitor map at the bottom of the about page (paste your snippet in _includes/clustrmaps.liquid)
 enable_google_analytics: false # enables google analytics
 enable_cronitor_analytics: false # enables cronitor RUM analytics
 enable_pirsch_analytics: false # enables Pirsch analytics (https://pirsch.io/)
