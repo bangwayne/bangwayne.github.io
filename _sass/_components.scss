@@ -325,19 +325,16 @@ ul.task-list input[type="checkbox"] {
   }
 
   .exp-logo {
+    // All institution logos are pre-normalized to an identical 520x150 canvas
+    // (see assets/img/*.jpg), so a single fixed height renders them all the
+    // same size and perfectly aligned regardless of the logo's own shape.
+    height: 3.1rem;
     width: auto;
-    height: 2.6rem;
-    max-width: 12rem;
     object-fit: contain;
     border-radius: 4px;
     flex: 0 0 auto;
     background: #fff;
-    padding: 3px;
-
-    // Near-square / emblem logos read smaller at equal height; give them a bump.
-    &[src$="ustc.jpg"] {
-      height: 3.4rem;
-    }
+    padding: 2px;
   }
 
   .exp-position {
