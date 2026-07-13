@@ -333,6 +333,11 @@ ul.task-list input[type="checkbox"] {
     flex: 0 0 auto;
     background: #fff;
     padding: 3px;
+
+    // Near-square / emblem logos read smaller at equal height; give them a bump.
+    &[src$="ustc.jpg"] {
+      height: 3.4rem;
+    }
   }
 
   .exp-position {
