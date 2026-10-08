@@ -4,7 +4,7 @@
 
 title: blank # the website title (if blank, full name will be used instead)
 first_name: Bangwei
-middle_name: # 
+middle_name: #
 last_name: Guo
 contact_note:
 description: > # the ">" symbol means to ignore newlines until "footer_text:"
@@ -301,7 +301,8 @@ scholar:
   details_link: Details
 
   query: "@*"
-  sort_by: year
+  # Sort within each year by publication/conference month, or arXiv month for preprints.
+  sort_by: year,sort_month
   order: descending
   group_by: year
   group_order: descending
@@ -317,6 +318,7 @@ enable_publication_badges:
 # Filter out certain bibtex entry keywords used internally from the bib output
 filtered_bibtex_keywords:
   [
+    sort_month,
     abbr,
     abstract,
     additional_info,
