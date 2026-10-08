@@ -6,6 +6,10 @@
   url: https://iclr.cc/
   color: "#1565c0"
 
+"NeurIPS":
+  url: https://neurips.cc/
+  color: "#00695c"
+
 "IPMI":
   url: https://ipmi2025.org/
   color: "#2a9d8f"
